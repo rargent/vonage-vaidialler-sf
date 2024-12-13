@@ -5,6 +5,7 @@ public  with sharing class VaidDiallerRetrieveRecords {
         System.debug('Starting updateDialEntries:::');
 
         UpdateRequest request = requests[0];
+        
 
         System.debug('Request::: ' + request);
 
